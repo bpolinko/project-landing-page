@@ -1,3 +1,8 @@
+body {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
 
 .header {
     display: flex;
@@ -26,3 +31,65 @@ a {
     text-decoration: none;
     color: black;
 }
+
+.body {
+    display: flex;
+    flex: 1;
+}
+
+.footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: bisque;
+    border-top: 2px black solid;
+}
+
+.body {
+    display: flex;
+    flex-direction: column;
+}
+
+.one{
+    display: flex;
+    background-color: bisque;
+}
+
+.two {
+    display: flex;
+    flex-direction: column;
+}
+
+.three {
+    display: flex;
+    background-color: #E5E7EB;
+}
+
+.four {
+    display: flex;
+}
+
+.left-one {
+}
+
+.right-one {
+
+}
+
+.title {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: 900;
+    font-size: 36px;
+}
+
+.container-two {
+    display: flex;
+    justify-content: center;
+    gap: 52px;
+}
+
+.info {
+    max-width: 200px;
+  }
