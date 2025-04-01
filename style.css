@@ -10,6 +10,14 @@ body {
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 
+.section-one{
+    background-color: #1F2937;
+    display: flex;
+    flex-direction: column;
+    padding: 0px 10vw;
+    /* padding-bottom: 72px; */
+}
+
 .navbar {
     display: flex;
     justify-content: space-between;
@@ -23,7 +31,6 @@ body {
     display: flex;
     align-items: center;
     gap: 16px;
-    padding: 0px 8px 0px 0px;
 }
 
 ul {
@@ -37,23 +44,6 @@ ul {
 a {
     text-decoration: none;
     color: #E5E7EB;
-}
-
-.footer {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    background-color: #1F2937;
-    padding: 24px;
-    color: #E5E7EB;
-}
-
-.section-one{
-    background-color: #1F2937;
-    display: flex;
-    flex-direction: column;
-    padding: 0px 10vw;
-    padding-bottom: 72px;
 }
 
 .header-box {
@@ -72,11 +62,6 @@ a {
     gap: 16px;
 }
 
-.right-header {
-    height: auto;
-    width: 360px;
-}
-
 .heading-one {
     color: #F9FAF8;
     font-weight: 900;
@@ -88,10 +73,24 @@ a {
     margin: 8px 0px;
 }
 
+.button-one {
+    background-color: #3882F6;
+    border: transparent;
+    color: white;
+    padding: 8px 32px;
+    border-radius: 6px;
+    width: fit-content;
+}
+
+.right-header {
+    height: auto;
+    width: 360px;
+}
+
 .section-two {
     display: flex;
     flex-direction: column;
-    padding: 40px 40px 80px 40px;
+    padding: 50px 40px 110px 40px;
     justify-content: center;
     gap: 32px;
 }
@@ -103,6 +102,7 @@ a {
     font-weight: 900;
     font-size: 36px;
     color: #1F2937;
+    margin-bottom: 20px;
 }
 
 .container-two {
@@ -149,13 +149,13 @@ a {
 
 .subtext-three {
     text-align: right;
-    font-size: 16px;
+    font-size: 19px;
 }
 
 .section-four {
     display: flex;
     justify-content: center;
-    padding: 80px 40px;
+    padding: 120px 40px;
 }
 
 .box-four {
@@ -163,29 +163,35 @@ a {
     justify-content: center;
     align-items: center;
     background-color: #3882F6;
-    padding: 40px 70px;
+    padding: 50px 80px;
     gap: 0 110px;
     color: white;
     border-radius: 12px;
-}
-.content-four{
-    font-size: 12px;
+    width: 800px;
 }
 
-.button-one {
- background-color: #3882F6;
- border: transparent;
- color: white;
- padding: 8px 32px;
- border-radius: 6px;
- width: fit-content;
+.header-four {
+    font-size: 23px;
+}
+
+.content-four{
+    font-size: 19px;
 }
 
 .button-four {
     background-color: transparent;
     border: white 2px solid;
     color: white;
-    padding: 4px 10px;
+    padding: 6px 15px;
     border-radius: 6px;
+    font-size: 19px;
    }
 
+   .footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #1F2937;
+    padding: 36px;
+    color: #E5E7EB;
+}
