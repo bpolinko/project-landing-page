@@ -59,16 +59,15 @@ a {
     display: flex;
     background-color: #1F2937;
     padding: 24px;
-    border: red 2px solid;
     justify-content: space-around;
 }
 
 .left-one {
-    border: red 2px solid;
+    
 }
 
 .right-one {
-    border: red 2px solid;
+    
 }
 
 .heading-one {
