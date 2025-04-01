@@ -10,16 +10,16 @@ body {
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 
-.header {
+.navbar {
     display: flex;
     justify-content: space-between;
     background-color: #1F2937;
-    /* border-bottom: 2px black solid; */
     color: #F9FAF8;
+    height: 72px;
 }
 
-.left-header,
-.right-header {
+.left-navbar,
+.right-navbar {
     display: flex;
     align-items: center;
     gap: 16px;
@@ -39,35 +39,42 @@ a {
     color: #E5E7EB;
 }
 
-.body {
-    display: flex;
-    flex: 1;
-    flex-direction: column;
-}
-
 .footer {
     display: flex;
     justify-content: center;
     align-items: center;
     background-color: #1F2937;
-    /* border-top: 2px black solid; */
-    padding: 8px;
+    padding: 24px;
     color: #E5E7EB;
 }
 
-.one{
-    display: flex;
+.section-one{
     background-color: #1F2937;
-    padding: 24px;
-    justify-content: space-around;
+    display: flex;
+    flex-direction: column;
+    padding: 0px 10vw;
+    padding-bottom: 72px;
 }
 
-.left-one {
-    
+.header-box {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 80px 0px;
+    gap: 40px;
 }
 
-.right-one {
-    
+.left-header {
+    display: flex;
+    flex-direction: column;
+    width: 450px;
+    height: auto;
+    gap: 16px;
+}
+
+.right-header {
+    height: auto;
+    width: 360px;
 }
 
 .heading-one {
@@ -81,83 +88,13 @@ a {
     margin: 8px 0px;
 }
 
-.right-one {
-
-}
-
-.two {
+.section-two {
     display: flex;
     flex-direction: column;
-    padding: 16px;
-    gap: 16px;
+    padding: 40px 40px 80px 40px;
     justify-content: center;
+    gap: 32px;
 }
-
-.title{
-    color: #1F2937;
-    font-size: 36px;
-    font-weight: 900;
-}
-
-.three {
-    display: flex;
-    background-color: #E5E7EB;
-    justify-content: center;
-    align-items: center;
-    flex: auto;
-    flex-direction: column; 
-}
-
-.box-three {
-    display: flex;
-    background-color: #E5E7EB;
-    justify-content: center; 
-    gap: 8px;
-    flex-wrap: wrap;
-    width: 480px;
-}
-
-.quote-three {
-    display: flex;
-    justify-content: flex-end;
-    flex: auto;
-}
-
-.four {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    background-color: white;
-    flex: auto;
-}
-
-.box-four {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    background-color: #3882F6;
-    padding: 30px 48px;
-    gap: 0 30px;
-    color: white;
-    border-radius: 12px;
-}
-.content-four{
-    font-size: 12px;
-}
-
-.button-one {
- background-color: #3882F6;
- border: #1F2937 2px solid;
- color: white;
- padding: 4px 10px;
-}
-
-.button-four {
-    background-color: #3882F6;
-    border: white 2px solid;
-    color: white;
-    padding: 4px 10px;
-   }
 
 .title {
     display: flex;
@@ -165,6 +102,7 @@ a {
     align-items: center;
     font-weight: 900;
     font-size: 36px;
+    color: #1F2937;
 }
 
 .container-two {
@@ -177,4 +115,77 @@ a {
 
 .info {
     max-width: 200px;
+    gap: 16px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
   }
+
+  img {
+    border: #3882F6 2px solid;
+    border-radius: 6px;
+  }
+
+.section-three {
+    background-color: #E5E7EB;
+    padding: 120px 40px;
+    display: flex;
+    justify-content: center;
+}
+
+.box-three {
+    display: flex;
+    flex-direction: column;
+    width: 800px;
+    gap: 16px;
+}
+
+.paragraph-three {
+    font-size: 36px;
+    font-style: italic;
+    font-weight: 300;
+    flex-wrap: wrap;
+}
+
+.subtext-three {
+    text-align: right;
+    font-size: 16px;
+}
+
+.section-four {
+    display: flex;
+    justify-content: center;
+    padding: 80px 40px;
+}
+
+.box-four {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #3882F6;
+    padding: 40px 70px;
+    gap: 0 110px;
+    color: white;
+    border-radius: 12px;
+}
+.content-four{
+    font-size: 12px;
+}
+
+.button-one {
+ background-color: #3882F6;
+ border: transparent;
+ color: white;
+ padding: 8px 32px;
+ border-radius: 6px;
+ width: fit-content;
+}
+
+.button-four {
+    background-color: transparent;
+    border: white 2px solid;
+    color: white;
+    padding: 4px 10px;
+    border-radius: 6px;
+   }
+
