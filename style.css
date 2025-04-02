@@ -21,9 +21,8 @@ body {
 .navbar {
     display: flex;
     justify-content: space-between;
-    background-color: #1F2937;
-    color: #F9FAF8;
     height: 90px;
+
 }
 
 .left-navbar,
@@ -36,7 +35,7 @@ body {
 ul {
     list-style: none;
     display: flex;
-    gap: 16px;
+    gap: 16px; 
     padding: 0;
     margin: 0;
 }
@@ -51,7 +50,7 @@ a {
     align-items: center;
     justify-content: space-between;
     margin: 80px 0px;
-    gap: 40px;
+
 }
 
 .left-header {
