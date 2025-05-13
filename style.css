@@ -31,7 +31,6 @@ body {
     display: flex;
     align-items: center;
     gap: 16px;
-    border: red 2px solid;
 }
 
 ul {
