@@ -1,6 +1,7 @@
 html, body {
     margin: 0;
     padding: 0;
+    /* box-sizing: border-box; */
   }  
 
 body {
@@ -14,15 +15,15 @@ body {
     background-color: #1F2937;
     display: flex;
     flex-direction: column;
-    padding: 0px 10vw;
-    /* padding-bottom: 72px; */
+    padding: 0px 10vw;   
+    
 }
 
 .navbar {
     display: flex;
     justify-content: space-between;
     height: 90px;
-
+    
 }
 
 .left-navbar,
@@ -30,6 +31,7 @@ body {
     display: flex;
     align-items: center;
     gap: 16px;
+    border: red 2px solid;
 }
 
 ul {
@@ -38,6 +40,13 @@ ul {
     gap: 16px; 
     padding: 0;
     margin: 0;
+}
+
+.listVertical {
+    list-style: square;
+    display: flex;
+    flex-direction: column;
+    
 }
 
 a {
@@ -184,6 +193,20 @@ a {
     padding: 6px 15px;
     border-radius: 6px;
     font-size: 19px;
+   }
+
+   .resourcesBody {
+    background-color: #E5E7EB;
+    display: flex;
+    flex-direction: column;
+    flex: auto;
+    align-items: center;
+    
+   }
+
+   .resourcesBody a {
+    text-decoration: underline;
+    color: #1F2937;
    }
 
    .footer {
